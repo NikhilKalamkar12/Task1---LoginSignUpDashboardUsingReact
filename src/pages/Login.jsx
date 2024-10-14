@@ -49,10 +49,12 @@ const Login = () => {
             <div className="flex justify-between items-center mb-6">
               <a href="#" className="text-sm text-purple-500 hover:text-purple-700 transition duration-300">Forgot Password?</a>
               <Link to="/signup" className="text-sm text-purple-500 hover:text-purple-700 transition duration-300">Sign Up</Link>
+              <Link to="/dashboard" className="text-sm text-purple-500 hover:text-purple-700 transition duration-300">Dashboard</Link>
+
             </div>
 
             <button type="submit" className="w-full bg-purple-500 text-white py-2 rounded-lg font-semibold hover:bg-purple-600 transition duration-300 shadow-lg">
-              Login
+            <Link to="/dashboard" className="text-sm">Login</Link>
             </button>
           </Form>
         </Formik>

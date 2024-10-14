@@ -9,7 +9,7 @@ const Dashboard = () => {
         <ul>
           <li className="mb-4"><a href="#" className="hover:text-blue-400">Profile</a></li>
           <li className="mb-4"><a href="#" className="hover:text-blue-400">Settings</a></li>
-          <li className="mb-4"><a href="#" className="hover:text-blue-400">Logout</a></li>
+          <li className="mb-4"><a href="/login" className="hover:text-blue-400">Logout</a></li>
         </ul>
       </div>
       

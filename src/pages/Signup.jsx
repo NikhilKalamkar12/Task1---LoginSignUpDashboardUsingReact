@@ -77,7 +77,7 @@ const Signup = () => {
             </div>
 
             <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-lg font-semibold hover:bg-blue-600 transition duration-300 shadow-lg">
-              Sign Up
+            <Link to="/dashboard" className="text-sm ">Signup</Link>
             </button>
           </Form>
         </Formik>
